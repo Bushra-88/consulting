@@ -22,10 +22,11 @@ const Hero = () => {
         className="w-full h-auto object-cover" 
       />
       <h1 
-        className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-center transition-opacity duration-700 ${isVisible ? "opacity-100" : "opacity-0"}`}
+        className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-center transition-opacity duration-700 text-gray-300  ${isVisible ? "opacity-100" : "opacity-0"}`}
+        style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.9)" }}
       >
         Welkome bij <br />
-         <span className=" shadow-black hover:text-sky-600">Dilawarzada Consultatie</span> 
+         <span className="  text-sky-600">Dilawarzada Consultatie</span> 
       </h1>
     </div>
   );
