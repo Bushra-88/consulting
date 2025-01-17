@@ -25,7 +25,7 @@ const Hero = () => {
         className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-center transition-opacity duration-700 ${isVisible ? "opacity-100" : "opacity-0"}`}
       >
         Welkome bij <br />
-         <span className="text-sky-600 shadow-black">Dilawarzada Consultatie</span> 
+         <span className=" shadow-black hover:text-sky-600">Dilawarzada Consultatie</span> 
       </h1>
     </div>
   );
