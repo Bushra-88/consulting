@@ -15,7 +15,7 @@ const Navbar = () => {
         />
       </div>
       <div className="flex-grow text-center">
-        <h2 className="text-white text-xl font-bold hover:text-sky-300">Dilawarzada Consultatie</h2>
+        <h2 className="text-yellow-500 text-xl font-bold hover:text-sky-300">Dilawarzada Consultatie</h2>
       </div>
       <div className="flex items-center">
         <Link
